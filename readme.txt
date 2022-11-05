@@ -1,0 +1,1 @@
+returns length of the name(firstname+lastname)
