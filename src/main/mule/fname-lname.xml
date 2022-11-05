@@ -130,7 +130,7 @@ output application/json
 output application/json
 ---
 {
-  length: sizeOf(attributes.queryParams.fname)+ sizeOf(attributes.queryParams.lname)
+  "length of name": sizeOf(attributes.queryParams.fname)+ sizeOf(attributes.queryParams.lname)
 }]]></ee:set-payload>
             </ee:message>
         </ee:transform>
