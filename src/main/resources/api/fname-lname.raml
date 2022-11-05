@@ -1,0 +1,21 @@
+#%RAML 1.0
+title: fname-lname
+
+/lengthOfName:
+  get:
+    queryParameters:
+      fname:
+        type: string
+        required: true
+        example: sai
+      lname:
+        type: string
+        required: true
+        example: pedavalli
+    responses:
+      200:
+        body:
+          application/json:
+            type: object
+            example: {"length": 10}
+            
